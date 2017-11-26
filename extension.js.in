@@ -1,4 +1,4 @@
-const item = imports.ui.main.panel.statusArea.aggregateMenu.${item}.actor;
+const item = imports.ui.main.panel.statusArea.aggregateMenu.${item};
 
 let registration;
 

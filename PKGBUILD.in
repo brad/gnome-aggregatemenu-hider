@@ -2,7 +2,7 @@
 
 # To only build some of the extensions, remove
 # the unwanted ones from the $extensions variable.
-extensions=('brightness' 'volume' 'user' 'location')
+extensions=('brightness' 'volume' 'user' 'location' 'bluetooth')
 pkgbase='$appname-git'
 for e in ${extensions[@]}; do
   local pkg=gnome-shell-extension-hide-$e-git
